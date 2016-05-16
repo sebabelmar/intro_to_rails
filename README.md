@@ -6,6 +6,7 @@
 From the book to playground. Create apps to learn not to ship them.
 
 ## Agenda
+### First Part
 * 5'  Intro
 * 5'  Build with Scaffold controller/route/string [2min to install rails]
 * 10' Draw client/server Rails (context)
@@ -15,7 +16,8 @@ From the book to playground. Create apps to learn not to ship them.
 * 10' More Scaffold (MVC)
 * 5'  Testing form console (contoller/routes) NOTE: diragram
 * 5'  QA
-Bio-break
+* 5'  Bio-break
+### Second Part
 * 5'  Pair to build something
 * 20' Build something App
 * 20' QA and conversation arround the experience
