@@ -5,7 +5,16 @@
 
 From the book to playground. Create apps to learn not to ship them.
 
-## Agenda 
+## Agenda
+5' Intro
+10' Build with Scaffold
+5' Test from console (model) NOTE: diragram
+10' More Scaffold
+5' Testing form console (contoller/routes) NOTE: diragram
+5' Groups of 4 to build something
+15' Build something
+5' QA
+60'
 
 ## Fundamentals
 * Models
@@ -13,6 +22,7 @@ From the book to playground. Create apps to learn not to ship them.
 * Views
 * Routes
 * Scaffold (error before migrating the DB)
+*
 
 ## Looking into rails from the console
 * Models
