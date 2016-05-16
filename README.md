@@ -9,6 +9,12 @@ From the book to playground. Create apps to learn not to ship them.
 ### First Part
 * 5'  Intro
 * 5'  Build with Scaffold controller/route/string [2min to install rails]
+  * Cloud 9 - Rails Tutorial
+  * gem install rails
+  * rails new test-1
+  * bin/rails s -b $IP -p $PORT
+  * bin/rails generate controller welcome index
+  * bin/rails server
 * 10' Draw client/server Rails (context)
 * 5'  Test from console (model) NOTE: diragram
 * 5'  QA
