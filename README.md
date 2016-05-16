@@ -16,7 +16,7 @@ From the book to playground. Create apps to learn not to ship them.
 * 10' More Scaffold (MVC)
 * 5'  Testing form console (contoller/routes) NOTE: diragram
 * 5'  QA
-* 5'  Bio-break
+* 5'  Bio-break  
 ### Second Part
 * 5'  Pair to build something
 * 20' Build something App
