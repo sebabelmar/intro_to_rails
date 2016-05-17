@@ -2,8 +2,14 @@
 <%= link_to 'New article', new_article_path %>
 <br>
 <% @articles.each do |article| %>
-    <tr>
-      <td><%= article.title %></td>
-      <td><%= article.text %></td>
-    </tr>
+  <p>
+      <strong>Title:</strong>
+      <%= article.title %>    
+  </p>
+  
+  <p>
+      <strong>Text:</strong>
+      <%= article.text %>    
+  </p>
+  <hr></hr>
 <% end %>
