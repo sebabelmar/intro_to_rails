@@ -1,5 +1,6 @@
 <h1>All Articles!</h1>
-
+<%= link_to 'New article', new_article_path %>
+<br>
 <% @articles.each do |article| %>
     <tr>
       <td><%= article.title %></td>
