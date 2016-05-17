@@ -7,86 +7,45 @@ From the book to playground. Create apps to learn not to ship them.
 
 ## Agenda
 ### First Part
-* 5'  Intro
-* 5'  Build with Scaffold controller/route/string [2min to install rails]
-  * Cloud 9 - Rails Tutorial
-  * gem install rails
-  * rails new test-1
-  * bin/rails s -b $IP -p $PORT
-  * bin/rails generate controller welcome index
-  * bin/rails server
-  * Add root route to an action in same controller
-  * Add controller action
-  * Add view
-  * Add variables to controller to be and not to be local in view
-  * Look devtools
-* 10' Draw client/server Rails (context)
-* 5'  Test from console (model) NOTE: diragram
-    * Get into rails console and explore
-    * app.get '/'
-    * app.methods.each {|m| puts "method: #{m}\n"}
-    * helper.methods.each {|m| puts "method: #{m}\n"}
-    * helper.content_tag :h1, "Hey there"
-* 5'  QA
-* 1'  Meditation
-* 10' More Scaffold (MVC)
-    * bin/rails generate scaffold Post author:string content:text
-    * rake routes (bunch of routes no root)
-    * Create welcome controller and make it a root
-    * See it failing for migrations
-    * bin/rake db:migrate
-    * show schema file
-    * show migration file
-    * show model file
-    * Show CRUD functionality on browser
-    * Show Models in Controller
-* 5'  Testing form console (contoller/routes) NOTE: diragram
-    * Post.create
-    * Post.all
-    * app.get '/posts'
-    * p = Post.all.first
-    * p.content
-    
-* 5'  QA
-* 5'  Bio-break  
+* Intro
+* Build controller/route/view
+* Draw client/server architecture on Rack apps
+* Test from console
+* QA
+* Meditation
+* Build Scaffold (MVC) one resource
+* Testing form console
+* QA
+* Bio-break  
 
 ### Second Part
-* 5'  Pair to build something
-* 20' Build something App
-* 20' QA and conversation arround the experience
-* 10' General QA
+* Pair to build something
+* Build something App, mock, plan, build
+* QA and conversation arround the experience
+* General QA
 
+------------
+# Next Steps
 
-## Fundamentals
-* Models
-* Controllers
-* Views
-* Routes
-* Scaffold (error before migrating the DB)
-
-## Looking into rails from the console
-* Models
-* App object
-* Helper object
+## Build!
 
 ## Small quick app ideas
 Build the bare bones, the minimun fuctionality
-look into page 35
-
-## CRUD
-* Think in resorces
-* CRUD actions in each controller in the following order: index, show, new, edit, create, update and destroy.
-* Define basic functionality
-* Views
-* Controllers
-* Mock
 
 ## Ideas
 * A blog
 * A link aggregator, like Reddit or Hacker News
 * A forum, like Discourse
 * A Q&A site, like Stack Overflow
-* 
+
+## CRUD
+* Think in resorces
+* CRUD actions in each controller in the following order: index, show, new, edit, create, update and destroy.
+* Define basic functionality
+* Mock
+* Model
+* Controllers
+* Views
 
 ## Resources
 * [Practicing Rails](https://www.justinweiss.com/practicing-rails/)
