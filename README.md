@@ -30,6 +30,12 @@ From the book to playground. Create apps to learn not to ship them.
 * 5'  QA
 * 1'  Meditation
 * 10' More Scaffold (MVC)
+    * bin/rails generate scaffold Post author:string content:text
+    * rake routes (bunch of routes no root)
+    * Create welcome controller and make it a root
+    * See it failing for migrations
+    * bin/rake db:migrate
+    * show schema file
 * 5'  Testing form console (contoller/routes) NOTE: diragram
 * 5'  QA
 * 5'  Bio-break  
