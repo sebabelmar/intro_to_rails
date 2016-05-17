@@ -75,6 +75,7 @@ look into page 35
 
 ## CRUD
 * Think in resorces
+* CRUD actions in each controller in the following order: index, show, new, edit, create, update and destroy.
 * Define basic functionality
 * Views
 * Controllers
