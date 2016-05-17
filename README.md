@@ -27,9 +27,7 @@ From the book to playground. Create apps to learn not to ship them.
 ------------
 # Next Steps
 
-## Build!
-
-## Small quick app ideas
+## Build small quick appplications
 Build the bare bones, the minimun fuctionality
 
 ## Ideas
