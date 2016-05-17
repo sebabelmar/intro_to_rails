@@ -36,7 +36,17 @@ From the book to playground. Create apps to learn not to ship them.
     * See it failing for migrations
     * bin/rake db:migrate
     * show schema file
+    * show migration file
+    * show model file
+    * Show CRUD functionality on browser
+    * Show Models in Controller
 * 5'  Testing form console (contoller/routes) NOTE: diragram
+    * Post.create
+    * Post.all
+    * app.get '/posts'
+    * p = Post.all.first
+    * p.content
+    
 * 5'  QA
 * 5'  Bio-break  
 
@@ -63,15 +73,23 @@ From the book to playground. Create apps to learn not to ship them.
 Build the bare bones, the minimun fuctionality
 look into page 35
 
-CRUD
+## CRUD
 * Think in resorces
 * Define basic functionality
 * Views
 * Controllers
 * Mock
 
-Ideas
+## Ideas
 * A blog
 * A link aggregator, like Reddit or Hacker News
 * A forum, like Discourse
 * A Q&A site, like Stack Overflow
+* 
+
+## Resources
+* [Practicing Rails](https://www.justinweiss.com/practicing-rails/)
+* [Rails Docs](http://guides.rubyonrails.org/getting_started.html)
+
+
+
