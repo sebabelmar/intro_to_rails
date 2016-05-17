@@ -15,8 +15,18 @@ From the book to playground. Create apps to learn not to ship them.
   * bin/rails s -b $IP -p $PORT
   * bin/rails generate controller welcome index
   * bin/rails server
+  * Add root route to an action in same controller
+  * Add controller action
+  * Add view
+  * Add variables to controller to be and not to be local in view
+  * Look devtools
 * 10' Draw client/server Rails (context)
 * 5'  Test from console (model) NOTE: diragram
+    * Get into rails console and explore
+    * app.get '/'
+    * app.methods.each {|m| puts "method: #{m}\n"}
+    * helper.methods.each {|m| puts "method: #{m}\n"}
+    * helper.content_tag :h1, "Hey there"
 * 5'  QA
 * 1'  Meditation
 * 10' More Scaffold (MVC)
