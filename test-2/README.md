@@ -11,6 +11,7 @@
 * show model file
 * Show CRUD functionality on browser
 * Show Models in Controller
+* Add [Skeleton](http://getskeleton.com/) 
 
 ### Test
 * `Post.create`
